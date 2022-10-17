@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/rock-en-delire/static/css/main.13dbc5eb.chunk.css",
-    "main.js": "/rock-en-delire/static/js/main.861bec22.chunk.js",
-    "main.js.map": "/rock-en-delire/static/js/main.861bec22.chunk.js.map",
-    "runtime-main.js": "/rock-en-delire/static/js/runtime-main.a2d80d9d.js",
-    "runtime-main.js.map": "/rock-en-delire/static/js/runtime-main.a2d80d9d.js.map",
-    "static/css/2.32073f4d.chunk.css": "/rock-en-delire/static/css/2.32073f4d.chunk.css",
-    "static/js/2.36048d4d.chunk.js": "/rock-en-delire/static/js/2.36048d4d.chunk.js",
-    "static/js/2.36048d4d.chunk.js.map": "/rock-en-delire/static/js/2.36048d4d.chunk.js.map",
-    "static/js/3.e3fb7f0b.chunk.js": "/rock-en-delire/static/js/3.e3fb7f0b.chunk.js",
-    "static/js/3.e3fb7f0b.chunk.js.map": "/rock-en-delire/static/js/3.e3fb7f0b.chunk.js.map",
-    "index.html": "/rock-en-delire/index.html",
-    "static/css/2.32073f4d.chunk.css.map": "/rock-en-delire/static/css/2.32073f4d.chunk.css.map",
-    "static/css/main.13dbc5eb.chunk.css.map": "/rock-en-delire/static/css/main.13dbc5eb.chunk.css.map",
-    "static/js/2.36048d4d.chunk.js.LICENSE.txt": "/rock-en-delire/static/js/2.36048d4d.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/rock-en-delire/static/media/preparation.caf427d3.jpg"
+    "main.css": "https://vincent-landeau.github.io/rock-en-delire/static/css/main.2c2f3f8f.chunk.css",
+    "main.js": "https://vincent-landeau.github.io/rock-en-delire/static/js/main.695ca407.chunk.js",
+    "main.js.map": "https://vincent-landeau.github.io/rock-en-delire/static/js/main.695ca407.chunk.js.map",
+    "runtime-main.js": "https://vincent-landeau.github.io/rock-en-delire/static/js/runtime-main.2ec665b5.js",
+    "runtime-main.js.map": "https://vincent-landeau.github.io/rock-en-delire/static/js/runtime-main.2ec665b5.js.map",
+    "static/css/2.32073f4d.chunk.css": "https://vincent-landeau.github.io/rock-en-delire/static/css/2.32073f4d.chunk.css",
+    "static/js/2.36048d4d.chunk.js": "https://vincent-landeau.github.io/rock-en-delire/static/js/2.36048d4d.chunk.js",
+    "static/js/2.36048d4d.chunk.js.map": "https://vincent-landeau.github.io/rock-en-delire/static/js/2.36048d4d.chunk.js.map",
+    "static/js/3.e3fb7f0b.chunk.js": "https://vincent-landeau.github.io/rock-en-delire/static/js/3.e3fb7f0b.chunk.js",
+    "static/js/3.e3fb7f0b.chunk.js.map": "https://vincent-landeau.github.io/rock-en-delire/static/js/3.e3fb7f0b.chunk.js.map",
+    "index.html": "https://vincent-landeau.github.io/rock-en-delire/index.html",
+    "static/css/2.32073f4d.chunk.css.map": "https://vincent-landeau.github.io/rock-en-delire/static/css/2.32073f4d.chunk.css.map",
+    "static/css/main.2c2f3f8f.chunk.css.map": "https://vincent-landeau.github.io/rock-en-delire/static/css/main.2c2f3f8f.chunk.css.map",
+    "static/js/2.36048d4d.chunk.js.LICENSE.txt": "https://vincent-landeau.github.io/rock-en-delire/static/js/2.36048d4d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "https://vincent-landeau.github.io/rock-en-delire/static/media/preparation.caf427d3.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2d80d9d.js",
+    "static/js/runtime-main.2ec665b5.js",
     "static/css/2.32073f4d.chunk.css",
     "static/js/2.36048d4d.chunk.js",
-    "static/css/main.13dbc5eb.chunk.css",
-    "static/js/main.861bec22.chunk.js"
+    "static/css/main.2c2f3f8f.chunk.css",
+    "static/js/main.695ca407.chunk.js"
   ]
 }
