@@ -1,7 +1,7 @@
 {
   "name": "mon-app-2",
   "version": "0.1.0",
-  "private": true,
+  "proxy": "http://localhost:5000",
   "homepage": "vincent-landeau.github.io/rock-en-delire",
   "dependencies": {
     "-": "^0.0.1",
