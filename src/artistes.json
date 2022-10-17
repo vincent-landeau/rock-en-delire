@@ -1,0 +1,15 @@
+export default var artistes = [
+{
+    "royal-blood": {
+      "title" : "Royal Blood",
+      "description" : "Royal Blood est un groupe de rock britannique, originaire de Brighton, dans le Sussex de l'Est, en Angleterre. Le duo composé du chanteur et bassiste Mike Kerr, et du batteur Ben Thatcher, est formé à Worthing, en Angleterre, durant l’année 2013.",
+      "url-image" : "/img/royal-blood.jpeg",
+      "url-video" : "https://www.youtube.com/embed/FoDNFsQGDjE"
+    },
+    "royal-blood": {
+      "title" : "Royal Blood",
+      "description" : "Royal Blood est un groupe de rock britannique, originaire de Brighton, dans le Sussex de l'Est, en Angleterre. Le duo composé du chanteur et bassiste Mike Kerr, et du batteur Ben Thatcher, est formé à Worthing, en Angleterre, durant l’année 2013.",
+      "url-image" : "/img/royal-blood.jpeg",
+      "url-video" : "https://www.youtube.com/embed/FoDNFsQGDjE"
+    },
+}];
