@@ -46,12 +46,12 @@ export default function Home() {
             <div className="pass">
               <h2>Pass 1 Jour</h2>
               <div className="tarif">35€</div>
-              <a href="#" className="billeterie-btn">Acheter</a>
+              <a href="" className="billeterie-btn">Acheter</a>
             </div>
             <div className="pass">
               <h2>Pass 4 Jours</h2>
               <div className="tarif">120€</div>
-              <a href="#" className="billeterie-btn">Acheter</a>
+              <a href="" className="billeterie-btn">Acheter</a>
             </div>
           </div>
         </section>
@@ -59,16 +59,16 @@ export default function Home() {
           <div className="container">
             <h1>Préparer votre festival</h1>
             <div className="prepa-item">
-              <a href="/rock-en-delire/infos-pratiques" className="">
+              <Link to="/rock-en-delire/infos-pratiques" className="">
                 <img src={`${process.env.PUBLIC_URL}/img/icon-preparation-1.png`} className=""/>
                 <p>Venir au festival</p>
-              </a>
+              </Link>
             </div>
             <div className="prepa-item">
-              <a href="/rock-en-delire/infos-pratiques" className="">
+              <Link to="/rock-en-delire/infos-pratiques" className="">
                 <img src={`${process.env.PUBLIC_URL}/img/icon-preparation-2.png`} className=""/>
                 <p>Dormir à proximité</p>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
