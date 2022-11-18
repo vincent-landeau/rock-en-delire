@@ -329,6 +329,21 @@ h1.artistes {
   flex-wrap: wrap;
 }
 
+.boutique-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-gap: 50px;
+}
+.boutique-grid a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.boutique-grid h3,
+.boutique-grid h2 {
+  margin: 5px 0;
+}
+
 .pass{
   width: 50%;
   padding: 0 6vw;
@@ -556,8 +571,14 @@ footer .infos-site .rgpd {
   .artiste-image div{
     padding-bottom: 56.17021276595745%
   }
+  .boutique-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
 }
 @media (max-width: 576px) {
+  .boutique-grid {
+    grid-template-columns: none; 
+  }
 
 }
 

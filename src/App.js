@@ -9,6 +9,7 @@ import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 
 import Home from './Home.jsx';
+import Boutique from './Boutique.jsx';
 import Programmation from './Programmation.jsx';
 import Artiste from './Artiste.jsx';
 import InfosPratiques from './Infos-Pratiques.jsx';
@@ -23,19 +24,23 @@ function App() {
 
         <Switch>
 
-          <Route path="/programmation">
+          <Route path="/rock-en-delire/programmation">
             <Programmation />
           </Route>
 
-          <Route path="/:day/:name">
+          <Route path="/rock-en-delire/boutique">
+            <Boutique />
+          </Route>
+
+          <Route path="/rock-en-delire/:day/:name">
             <Artiste />
           </Route>
 
-          <Route path="/infos-pratiques">
+          <Route path="/rock-en-delire/infos-pratiques">
             <InfosPratiques />
           </Route>
 
-          <Route path="/">
+          <Route path="/rock-en-delire/">
             <Home />
           </Route>
 

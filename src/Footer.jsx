@@ -7,16 +7,16 @@ export default function Footer() {
         <div className="container">
           <div className="reseaux">
             <a href="">
-              <img src="/img/facebook-white-round.png"/>
+              <img src={`${process.env.PUBLIC_URL}/img/facebook-white-round.png`}/>
             </a>
             <a href="">
-              <img src="/img/intagram-white-round.png"/>
+              <img src={`${process.env.PUBLIC_URL}/img/intagram-white-round.png`}/>
             </a>
             <a href="">
-              <img src="/img/youtube-white-round.png"/>
+              <img src={`${process.env.PUBLIC_URL}/img/youtube-white-round.png`}/>
             </a>
             <a href="">
-              <img src="/img/twitter-white-round.png"/>
+              <img src={`${process.env.PUBLIC_URL}/img/twitter-white-round.png`}/>
             </a>
           </div>
           <div className="menu">

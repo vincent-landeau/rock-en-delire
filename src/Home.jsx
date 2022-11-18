@@ -1,6 +1,7 @@
 import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay  from 'react-awesome-slider/dist/autoplay';
 import AwesomeSliderStyles from 'react-awesome-slider/dist/styles.css';
+import { Link } from 'react-router-dom';
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -12,7 +13,7 @@ export default function Home() {
           <div className="container banner-container">
             <div className="banner-content">
               <span className="banner-title">Festival</span>
-              <img src="/img/logo-blanc.png" alt="logo" />
+              <img src={`${process.env.PUBLIC_URL}/img/logo-blanc.png`} alt="logo" />
               <span className="banner-date">Du 17 au 20 juillet</span>
               <a className="banner-button" href="#">Réserver dès maintenant</a>
             </div>
@@ -27,14 +28,14 @@ export default function Home() {
               interval={4000}
               cssModule={AwesomeSliderStyles}
             >
-              <div data-src="/img/royal-blood.jpeg" >
-                <a href="/programmation/royal-blood" className="aws-layer" />
+              <div data-src={`${process.env.PUBLIC_URL}/img/royal-blood.jpeg`} >
+                <Link to={`${process.env.PUBLIC_URL}/dimanche/royal-blood`} className="aws-layer" />
               </div>
-              <div data-src="/img/ratm.jpg" >
-                <a href="#" className="aws-layer" />
+              <div data-src={`${process.env.PUBLIC_URL}/img/ratm.jpg`} >
+                <Link to={`${process.env.PUBLIC_URL}/samedi/ratm`} className="aws-layer" />
               </div>
-              <div data-src="/img/Foals-Alex-Knowles.png" >
-                <a href="#" className="aws-layer" />
+              <div data-src={`${process.env.PUBLIC_URL}/img/Foals-Alex-Knowles.png`} >
+                <Link to={`${process.env.PUBLIC_URL}/samedi/foals`} className="aws-layer" />
               </div>
             </AutoplaySlider>
           </div>
@@ -59,13 +60,13 @@ export default function Home() {
             <h1>Préparer votre festival</h1>
             <div className="prepa-item">
               <a href="" className="">
-                <img src="/img/icon-preparation-1.png" className=""/>
+                <img src={`${process.env.PUBLIC_URL}/img/icon-preparation-1.png`} className=""/>
                 <p>Venir au festival</p>
               </a>
             </div>
             <div className="prepa-item">
               <a href="" className="">
-                <img src="/img/icon-preparation-2.png" className=""/>
+                <img src={`${process.env.PUBLIC_URL}/img/icon-preparation-2.png`} className=""/>
                 <p>Dormir à proximité</p>
               </a>
             </div>

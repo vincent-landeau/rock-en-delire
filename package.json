@@ -1,7 +1,7 @@
 {
   "name": "mon-app-2",
   "version": "0.1.0",
-  "homepage": "https://vincent-landeau.github.io/rock-en-delire",
+  "homepage": "%PUBLIC_URL%",
   "dependencies": {
     "-": "^0.0.1",
     "@brainhubeu/react-carousel": "^2.0.3",
