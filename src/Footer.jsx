@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 var today = new Date();
 const year = today.getFullYear();
 
@@ -20,13 +22,13 @@ export default function Footer() {
             </a>
           </div>
           <div className="menu">
-            <a href="">Programmation</a>
-            <a href="">Boutique</a>
-            <a href="">Infos Pratique</a>
+            <Link to="/rock-en-delire/programmation">Programmation</Link>
+            <Link to="/rock-en-delire/boutique">Boutique</Link>
+            <Link to="/rock-en-delire/infos-pratiques">Infos Pratique</Link>
           </div>
           <div className="infos-site">
             <div className="copyright">
-              Copyright ©{year} Tous droits réservés | Ce site a été conçu par <a href="https://www.vincent-landeau.fr" target="_blank">Vincent Landeau</a>
+              Copyright ©{year} Tous droits réservés | Ce site a été conçu par <a href="https://vincent-landeau.github.io/" target="_blank">Vincent Landeau</a>
             </div>
             <div className="rgpd">
               <a href="">Mentions Légales </a>

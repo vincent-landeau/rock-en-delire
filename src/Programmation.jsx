@@ -7,7 +7,7 @@ export default function Programmation() {
     let i = 1;
     for (const [key, value] of Object.entries(prog)) {
       let artistes = Object.entries(value).map((artiste) =>
-        <Link to={`${process.env.PUBLIC_URL}/${key}/${artiste[0]}`} className="row-prog"><h3>{artiste[1]['title']}</h3><span>{artiste[1]['time']}</span></Link>
+        <Link to={`${key}/${artiste[0]}`} className="row-prog"><h3>{artiste[1]['title']}</h3><span>{artiste[1]['time']}</span></Link>
       );
       programmation.push(<div className="day-prog"><div className="day-prog-title"><span>jour n°{i}</span><h2>{key}</h2></div>{artistes}</div>);
       i++;

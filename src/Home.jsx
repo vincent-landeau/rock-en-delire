@@ -29,13 +29,13 @@ export default function Home() {
               cssModule={AwesomeSliderStyles}
             >
               <div data-src={`${process.env.PUBLIC_URL}/img/royal-blood.jpeg`} >
-                <Link to={`${process.env.PUBLIC_URL}/dimanche/royal-blood`} className="aws-layer" />
+                <Link to="dimanche/royal-blood" className="aws-layer" />
               </div>
               <div data-src={`${process.env.PUBLIC_URL}/img/ratm.jpg`} >
-                <Link to={`${process.env.PUBLIC_URL}/samedi/ratm`} className="aws-layer" />
+                <Link to="samedi/ratm" className="aws-layer" />
               </div>
               <div data-src={`${process.env.PUBLIC_URL}/img/Foals-Alex-Knowles.png`} >
-                <Link to={`${process.env.PUBLIC_URL}/samedi/foals`} className="aws-layer" />
+                <Link to="samedi/foals" className="aws-layer" />
               </div>
             </AutoplaySlider>
           </div>
@@ -59,13 +59,13 @@ export default function Home() {
           <div className="container">
             <h1>Préparer votre festival</h1>
             <div className="prepa-item">
-              <a href="" className="">
+              <a href="/rock-en-delire/infos-pratiques" className="">
                 <img src={`${process.env.PUBLIC_URL}/img/icon-preparation-1.png`} className=""/>
                 <p>Venir au festival</p>
               </a>
             </div>
             <div className="prepa-item">
-              <a href="" className="">
+              <a href="/rock-en-delire/infos-pratiques" className="">
                 <img src={`${process.env.PUBLIC_URL}/img/icon-preparation-2.png`} className=""/>
                 <p>Dormir à proximité</p>
               </a>
