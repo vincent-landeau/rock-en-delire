@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://vincent-landeau.github.io/rock-en-delire/static/css/main.1975ef0e.chunk.css",
-    "main.js": "https://vincent-landeau.github.io/rock-en-delire/static/js/main.c7c1d075.chunk.js",
-    "main.js.map": "https://vincent-landeau.github.io/rock-en-delire/static/js/main.c7c1d075.chunk.js.map",
+    "main.js": "https://vincent-landeau.github.io/rock-en-delire/static/js/main.1c8c653a.chunk.js",
+    "main.js.map": "https://vincent-landeau.github.io/rock-en-delire/static/js/main.1c8c653a.chunk.js.map",
     "runtime-main.js": "https://vincent-landeau.github.io/rock-en-delire/static/js/runtime-main.2ec665b5.js",
     "runtime-main.js.map": "https://vincent-landeau.github.io/rock-en-delire/static/js/runtime-main.2ec665b5.js.map",
     "static/css/2.32073f4d.chunk.css": "https://vincent-landeau.github.io/rock-en-delire/static/css/2.32073f4d.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.32073f4d.chunk.css",
     "static/js/2.07bb3846.chunk.js",
     "static/css/main.1975ef0e.chunk.css",
-    "static/js/main.c7c1d075.chunk.js"
+    "static/js/main.1c8c653a.chunk.js"
   ]
 }
